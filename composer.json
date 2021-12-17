@@ -1,0 +1,25 @@
+{
+    "name": "yousef/php-package",
+    "description": "no description until now",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yousef\\PhpPackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+
+    },
+    "authors": [
+        {
+            "name": "yousef",
+            "email": "Y.abuanzeh@postaplus.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "8.x-dev"
+    }
+}
