@@ -17,7 +17,6 @@
             "email": "Y.abuanzeh@postaplus.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "php": "^7.4|^8.0"
     }
