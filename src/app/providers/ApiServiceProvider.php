@@ -1,6 +1,6 @@
 <?php
 
-namespace YousefDev20\Api;
+namespace Yousef\App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use YousefDev20\Api\Structure\Facade\Api;

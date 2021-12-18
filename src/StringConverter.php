@@ -1,5 +1,5 @@
 <?php
-namespace YousefDev20\Api\app;
+namespace Yousef;
 
 class StringConverter
 {

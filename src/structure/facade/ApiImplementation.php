@@ -1,6 +1,6 @@
 <?php
 
-namespace YousefDev20\Api\Structure\Facade;
+namespace Yousef\Structure\Facade;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Http;

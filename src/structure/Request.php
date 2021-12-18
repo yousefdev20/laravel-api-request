@@ -1,6 +1,6 @@
 <?php
 
-namespace YousefDev20\Api\app;
+namespace Yousef\Structure;
 
 class Request
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace YousefDev20\Api\Structure\Traits;
+namespace Yousef\Structure\Traits;
 
 use YousefDev20\Api\app\Request;
 use YousefDev20\Api\Structure\Facade\ApiImplementation;
