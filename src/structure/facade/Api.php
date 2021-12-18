@@ -1,5 +1,5 @@
 <?php
-namespace yousefdev20\Api\Structure\Facade;
+namespace YousefDev20\Api\Structure\Facade;
 
 /**
  * @method static \YousefDev20\Api\Structure\Facade\ApiImplementation get(string $url = "", array $data = [])

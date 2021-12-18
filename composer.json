@@ -5,11 +5,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Yousef\\PhpPackage\\": "src/"
+            "Yousef\\PhpPackage\\": "src"
         }
     },
     "autoload-dev": {
-
+        "psr-4": {
+            "YousefDev20\\": "src"
+        }
     },
     "authors": [
         {
