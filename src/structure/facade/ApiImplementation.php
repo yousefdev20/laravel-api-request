@@ -2,7 +2,10 @@
 
 namespace YousefDev20\Api\Structure\Facade;
 
+use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\Http;
 use YousefDev20\Api\app\Request;
+use YousefDev20\Api\app\StringConverter;
 use YousefDev20\Api\Structure\Traits\hasToken;
 
 class ApiImplementation
@@ -16,14 +19,20 @@ class ApiImplementation
         $this->request = Request::getInstance();
     }
 
-    public function get(string $url = "", array $value = [])
+    public function get(string $url = "", array $value = []) : Object
     {
-        return $this;
+        $request = Request::getInstance();
+        $request->setBody($value);
+        $queryParameters = StringConverter::buildQueryParameter($request->getBody());
+
+        return Http::withToken($request->getHeader('token'))
+            ->get(Config::get('api.BASE_URL') . $url . $queryParameters);
     }
 
-    public function post(string $url = "", array $value = [])
+    public function post(string $url = "", array $value = []) : Object
     {
-
+        return Http::withToken(Request::getInstance()->getHeader('token'))
+            ->get(Config::get('api.BASE_URL') . $url);
     }
 
     public function put()

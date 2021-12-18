@@ -33,8 +33,12 @@ class Request
         $this->body[] = $value;
     }
 
-    public function getHeader() : array
+    public function getHeader(string $key = null) : array
     {
+        if ($key)
+        {
+            return $this->header[$key];
+        }
         return $this->header;
     }
 
