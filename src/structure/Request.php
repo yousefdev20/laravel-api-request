@@ -37,7 +37,7 @@ class Request
     {
         if ($key)
         {
-            return $this->header[$key];
+            return $this->header[0][$key];
         }
         return $this->header;
     }
