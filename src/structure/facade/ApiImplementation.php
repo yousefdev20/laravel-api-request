@@ -12,7 +12,7 @@ class ApiImplementation
 {
     use hasToken;
 
-    protected Request|null $request = null;
+    protected Request $request;
 
     public function __construct()
     {

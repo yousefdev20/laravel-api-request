@@ -7,7 +7,7 @@ class Request
     protected array $header = [];
     protected array $body = [];
 
-    protected static Request|null $instance = null;
+    protected static Request $instance;
 
     private function __construct()
     {

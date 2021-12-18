@@ -3,7 +3,6 @@
 namespace Yousef\structure\traits;
 
 use Yousef\structure\Request;
-use Yousef\structure\facade\ApiImplementation;
 
 trait hasToken
 {
