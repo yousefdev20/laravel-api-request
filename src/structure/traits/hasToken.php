@@ -1,9 +1,9 @@
 <?php
 
-namespace Yousef\Structure\Traits;
+namespace Yousef\structure\traits;
 
-use YousefDev20\Api\app\Request;
-use YousefDev20\Api\Structure\Facade\ApiImplementation;
+use Yousef\structure\Request;
+use Yousef\structure\facade\ApiImplementation;
 
 trait hasToken
 {

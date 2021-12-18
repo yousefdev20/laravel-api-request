@@ -1,12 +1,12 @@
 <?php
 
-namespace Yousef\Structure\Facade;
+namespace Yousef\structure\facade;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Http;
-use YousefDev20\Api\app\Request;
-use YousefDev20\Api\app\StringConverter;
-use YousefDev20\Api\Structure\Traits\hasToken;
+use Yousef\structure\Request;
+use Yousef\StringConverter;
+use Yousef\structure\traits\hasToken;
 
 class ApiImplementation
 {

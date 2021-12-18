@@ -1,10 +1,10 @@
 <?php
-namespace Yousef\Structure\Facade;
+namespace Yousef\structure\facade;
 
 /**
- * @method static \YousefDev20\Api\Structure\Facade\ApiImplementation get(string $url = "", array $data = [])
- * @method static \YousefDev20\Api\Structure\Facade\ApiImplementation post(string $url = "", array $data = [])
- * @method static \YousefDev20\Api\Structure\Facade\ApiImplementation withToken(string $token = "")
+ * @method static \Yousef\structure\facade\ApiImplementation get(string $url = "", array $data = [])
+ * @method static \Yousef\structure\facade\ApiImplementation post(string $url = "", array $data = [])
+ * @method static \Yousef\structure\facade\ApiImplementation withToken(string $token = "")
  */
 class Api extends \Illuminate\Support\Facades\Facade
 {

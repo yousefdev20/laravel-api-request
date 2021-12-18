@@ -1,10 +1,10 @@
 <?php
 
-namespace Yousef\App\Providers;
+namespace Yousef\app\providers;
 
 use Illuminate\Support\ServiceProvider;
-use YousefDev20\Api\Structure\Facade\Api;
-use YousefDev20\Api\Structure\facade\ApiImplementation;
+use Yousef\structure\facade\Api;
+use Yousef\structure\facade\ApiImplementation;
 
 class ApiServiceProvider extends ServiceProvider
 {
